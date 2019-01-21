@@ -1,60 +1,42 @@
-# Wheels-ada: 用 Vue 写一个 UI 组件库
+# w-zkc: 用 Vue 写一个 UI 组件库
 
-[![Build Status](https://travis-ci.org/travis-ci/travis-web.svg?branch=master)](https://travis-ci.org/travis-ci/travis-web)
-
-Wheels-ada UI 是一个好用的 UI 框架，提供了一些常用组件，适合 PC 端和移动端使用。
+w-zkc UI 是一个好用的 UI 框架，提供了一些常用组件，适合 PC 端和移动端使用。
 
 组件：按钮、输入框、网格、布局、Toast、Tabs、Popover、手风琴
 
 ## 介绍
 
-Wheels 就是轮子，这是我在学习 Vue 的过程中尝试写的一个 UI 框架（造的轮子），希望对你有用。
+这是我在学习 Vue 的过程中尝试写的一个 UI 框架（造的轮子），希望对你有用。
 
 ## 开始使用
 
 1. 添加 CSS 样式
-    使用本框架前，请在 CSS 中开启 border-box
-    ```
-    *，*::before,*::after{ box-sizing: border-box }
-    ```
-    IE 8 及以上浏览器支持此样式。
+   使用本框架前，请在 CSS 中开启 border-box
 
-2. 安装 wheels-ada
+   ```
+   *，*::before,*::after{ box-sizing: border-box }
+   ```
 
-    ```
-    npm install wheels-ada
-    ```
-    或者
-    ```
-    yarn add wheels-ada
-    ```
-3. 引入 wheels-ada
-    ```
-    import { Button } from 'wheels-ada'
-    import 'wheels-ada/dist/index.css'
+   IE 8 及以上浏览器支持此样式。
 
-    export default {
-        name: 'app',
-        component: {
-            'w-button': Button
-        }
-    }
+2. 引入 w-zkc
+
+   ```
+   import { Button } from 'w-zkc'
+   import 'w-zkc/dist/index.css'
+
+   export default {
+       name: 'app',
+       components: {
+           'w-button': Button
+       }
+   }
+   ```
 
 ## 文档
 
-[官方文档](https://adashuai5.github.io/wheels-ada/)
-
-## 提问
-
-[Issues](https://github.com/Adashuai5/wheels-ada/issues)
+[官方文档](https://keyingfu0.github.io/w-zkc/)
 
 ## 联系方式
 
-邮箱：ad873606339@gmail.com
-
-## 贡献代码
-
-[Pull request](https://github.com/Adashuai5/wheels-ada/pulls)
-
-
-
+邮箱：461354358@qq.com
